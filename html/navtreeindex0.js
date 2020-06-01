@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+"_kyrsovaya1_8cpp.html":[1,0,0,0,0,0,0,0,0],
+"_kyrsovaya1_8cpp.html#a580f481b8bff92c1a7037a6ab0a814f3":[1,0,0,0,0,0,0,0,0,0],
+"_sample__text_8cpp.html":[1,0,0,0,0,0,0,0,1],
+"_sample__text_8h.html":[1,0,0,0,0,0,0,0,2],
+"_sample__text_8h_source.html":[1,0,0,0,0,0,0,0,2],
+"annotated.html":[0,0],
+"classaudit.html":[0,0,0],
+"classaudit.html#a07b4daeae2f4d5542d3afcdcf4b240b7":[0,0,0,0],
+"classaudit.html#aa374a1b350f07a0f95a97c43200b155d":[0,0,0,2],
+"classaudit.html#ac1cb24975d0776de6a10345d36170708":[0,0,0,1],
+"classes.html":[0,1],
+"dir_4c7bed6e7bf673a77dbc110eeb374297.html":[1,0,0,0],
+"dir_4f94c68d66d68a5311fa5581b03b276e.html":[1,0,0,0,0,0,0,0],
+"dir_7fcdf75ee3f0e54db09509ece6114adf.html":[1,0,0,0,0,0],
+"dir_83a569c573b80da84276eadb4aa44a2d.html":[1,0,0,0,0,0,0],
+"dir_d522931ffa1371640980b621734a4381.html":[1,0,0],
+"dir_f03c3cc33e89a46406574e613e9e3c11.html":[1,0,0,0,0],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_func.html":[0,2,1],
+"globals.html":[1,1,0],
+"globals_func.html":[1,1,1],
+"index.html":[],
+"pages.html":[]
+};

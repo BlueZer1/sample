@@ -1,0 +1,79 @@
+\hypertarget{classaudit}{}\doxysection{Класс audit}
+\label{classaudit}\index{audit@{audit}}
+
+
+Класс аудит $\ast$ ~\newline
+  
+
+
+
+
+{\ttfamily \#include $<$Sample\+\_\+text.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+B\+O\+OL \mbox{\hyperlink{classaudit_aa374a1b350f07a0f95a97c43200b155d}{Writenode\+Recurse}} (H\+K\+EY h\+Key\+Root, L\+P\+C\+T\+S\+TR lp\+Sub\+Key, int number)
+\begin{DoxyCompactList}\small\item\em Логическая переменная, принимающая на вход несколько параметров и возвращающая названия U\+SB устройств. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classaudit_ac1cb24975d0776de6a10345d36170708}{output}} ()
+\begin{DoxyCompactList}\small\item\em Функция, не возвращающая никакого значения. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classaudit_a07b4daeae2f4d5542d3afcdcf4b240b7}{audit}} ()
+\begin{DoxyCompactList}\small\item\em Конструктор по умолчанию. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс аудит $\ast$ ~\newline
+ 
+
+\begin{DoxyAuthor}{Автор}
+Alexey Levin 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+01.\+06.\+2020
+\end{DoxyDate}
+Внутри данного класса происходит переход в папку S\+Y\+S\+T\+EM\textbackslash{}Control\+Set001\textbackslash{}Enum\textbackslash{}U\+S\+B\+S\+T\+OR, выборка информации и последующий вывод её в .txt файл. 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classaudit_a07b4daeae2f4d5542d3afcdcf4b240b7}\label{classaudit_a07b4daeae2f4d5542d3afcdcf4b240b7}} 
+\index{audit@{audit}!audit@{audit}}
+\index{audit@{audit}!audit@{audit}}
+\doxysubsubsection{\texorpdfstring{audit()}{audit()}}
+{\footnotesize\ttfamily audit\+::audit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор по умолчанию. 
+
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classaudit_ac1cb24975d0776de6a10345d36170708}\label{classaudit_ac1cb24975d0776de6a10345d36170708}} 
+\index{audit@{audit}!output@{output}}
+\index{output@{output}!audit@{audit}}
+\doxysubsubsection{\texorpdfstring{output()}{output()}}
+{\footnotesize\ttfamily void audit\+::output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция, не возвращающая никакого значения. 
+
+Вывод информации в .txt файл. \mbox{\Hypertarget{classaudit_aa374a1b350f07a0f95a97c43200b155d}\label{classaudit_aa374a1b350f07a0f95a97c43200b155d}} 
+\index{audit@{audit}!WritenodeRecurse@{WritenodeRecurse}}
+\index{WritenodeRecurse@{WritenodeRecurse}!audit@{audit}}
+\doxysubsubsection{\texorpdfstring{WritenodeRecurse()}{WritenodeRecurse()}}
+{\footnotesize\ttfamily B\+O\+OL audit\+::\+Writenode\+Recurse (\begin{DoxyParamCaption}\item[{H\+K\+EY}]{h\+Key\+Root,  }\item[{L\+P\+C\+T\+S\+TR}]{lp\+Sub\+Key,  }\item[{int}]{number }\end{DoxyParamCaption})}
+
+
+
+Логическая переменная, принимающая на вход несколько параметров и возвращающая названия U\+SB устройств. 
+
+hkey\+Root -\/ Описатель открываемого раздела, который может быть получен функциями Reg\+Create\+Key\+Ex и Reg\+Open\+Key\+Ex.
+
+lp\+Sub\+Key -\/ Указатель на строку, завершающуюся нулевым байтом, которая содержит имя открываемого раздела.
+
+number -\/ Номер цикла. 
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+U\+S\+E\+R/source/repos/\+Kyrsovaya1/\+Kyrsovaya1/\mbox{\hyperlink{_sample__text_8h}{Sample\+\_\+text.\+h}}\item 
+C\+:/\+Users/\+U\+S\+E\+R/source/repos/\+Kyrsovaya1/\+Kyrsovaya1/\mbox{\hyperlink{_sample__text_8cpp}{Sample\+\_\+text.\+cpp}}\end{DoxyCompactItemize}
